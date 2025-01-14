@@ -10,7 +10,7 @@ export function CustomImageFrame({ src,alt }) {
 export function CustomImageFrame2(properties){
 
     return (
-        <img src={properties.src}></img>
+        <img className={style.container} src={properties.src}></img>
     )
 }
 
@@ -18,6 +18,6 @@ export function CustomImageFrame2(properties){
 export function CustomImageFrame3(properties){
 
     return (
-        <img src={properties.src}></img>
+        <img className={style.container} src={properties.src}></img>
     )
 }
