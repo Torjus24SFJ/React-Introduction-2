@@ -1,0 +1,9 @@
+.container {
+  max-width: 50vh;
+  background-color: blue;
+  padding: 2rem;
+}
+
+.container img {
+  width: 100%;
+}
